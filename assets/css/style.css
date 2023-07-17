@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid red;    
+    /* border: 1px solid red;     */
     text-decoration: none;
     list-style: none;
     overflow-x: hidden;
@@ -19,14 +19,27 @@ header{
     padding: 20px;
 }
 
+.nav-bar.active{
+    display: block;
+}
+
+.nav-list{
+    display: flex;
+    flex-direction: column;
+}
+
 .logo{
     font-size: 32px;
     font-weight: 800;
     color: #01001a;
 }
 
+svg{
+    display: none;
+}
+
 .nav-bar{
-    margin-right: ;
+    margin-right: -10px;
 }
 
 .nav-list{
@@ -103,6 +116,7 @@ section{
     height: 100%;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .new-descri{
@@ -148,6 +162,7 @@ footer{
 .card-image{
     height: 100px;
 }
+
 .card-descri{
     padding: 10px;
     padding-top: 0;
@@ -166,6 +181,10 @@ footer{
         display: none;
     }
 
+    #menu-open{
+        display: block;
+    }
+
     main{
         flex-direction: column;
     }
@@ -177,12 +196,16 @@ footer{
 
     .text-description{
         flex-direction: column;
+        margin: 0;
     }
 
     .text-slogan{
-        padding: 20px;
+        padding: 0;
     }
 
+    .text-service-container{
+        padding: 0 ;
+    }
     .right{
         display: flex;
         flex-direction: column;
@@ -190,5 +213,22 @@ footer{
 
     footer{
         flex-direction: column;
+        padding: 10px;
+    }
+  
+    .card img{
+        width:40%;
+        height: 40vw;
+        margin: 10px;
+    }
+    .card-descri{
+        width: 50%;
     }
 }
+
+@media only screen and (max-width: 860px){
+    body{
+        padding: 5px;
+    }
+}
+

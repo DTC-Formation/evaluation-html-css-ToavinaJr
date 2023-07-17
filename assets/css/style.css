@@ -19,9 +19,16 @@ header{
     padding: 20px;
 }
 
+.nav-bar{
+    margin-right: -10px;
+}
+
+.active{
+    display: block;
+}
+
 .nav-list{
     display: flex;
-    flex-direction: column;
 }
 
 .logo{
@@ -32,10 +39,6 @@ header{
 
 svg{
     display: none;
-}
-
-.nav-bar{
-    margin-right: -10px;
 }
 
 .nav-list{
@@ -49,6 +52,10 @@ svg{
 .nav-link{
     font-size: 24px;
     color: #8d8b96;
+}
+
+.nav-link:hover{
+    color: #f25d52;
 }
 
 main{
@@ -101,6 +108,11 @@ section{
     text-transform: uppercase;
     color: #f7e4da;
     font-weight: 400;
+    cursor: pointer;
+}
+
+.read-more:hover{
+    background: #00001a;
 }
 .right{
     padding: 20px;
@@ -124,10 +136,16 @@ section{
     font-size: 28px;
     color: #e6a652;
 }
+
 .new-title{
     font-size: 20px;
     font-weight: 500;
     color: #d9d9d7;
+    cursor: pointer;
+}
+
+.new-title.new-title:hover{
+    color: #e6a652;
 }
 
 .new-intro{
@@ -167,23 +185,26 @@ footer{
 .card-title{
     font-size: 20px;
     font-weight: 500;
+    cursor: pointer;
+    display: inline-block;
 }
+
+.card-title:hover{
+    color: #f25d52;
+}
+
 .card-content{
     color: #b0aeb1;
 }
 
-.active{
-    display: block;
-}
 @media only screen and (max-width: 375px){
-    nav{
+    .nav-list{
         display: none;
     }
-
+    
     #menu-open{
         display: block;
     }
-
     main{
         flex-direction: column;
     }

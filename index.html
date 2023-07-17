@@ -10,30 +10,25 @@
   <script src="./assets/js/script.js" defer></script>
   <title>Frontend Mentor | News homepage</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
   <header>
     <div class="logo">W.</div>
       <nav class="nav-bar">
         <ul class="nav-list">
-        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="#new"></a>New</li>
-        <li class="nav-item"><a class="nav-link" href="#popular">Popular</a></li>
-        <li class="nav-item"><a class="nav-link" href="#trending">Trending</a></li>
-        <li class="nav-item"><a class="nav-link" href="#categories">Categories</a></li>
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#new">New</a></li>
+          <li class="nav-item"><a class="nav-link" href="#popular">Popular</a></li>
+          <li class="nav-item"><a class="nav-link" href="#trending">Trending</a></li>
+          <li class="nav-item"><a class="nav-link" href="#categories">Categories</a></li>
       </ul>
     </nav>
   </header>
-  
+
   <main>
     <section class="left">
       <div class="img-web-container">
-        <img src="./assets/images/image-web-3-desktop.jpg" alt="">
+        <img src="./assets/images/image-web-3-desktop.jpg" class="img-web" alt="">
       </div>
 
       <div class="text-description">      
@@ -81,20 +76,31 @@
 
   <footer>
     <div class="card card-1">
-      <div class="card-number card-number-1"></div>
-      <div class="card-title"></div>
-      <div class="card-content"></div>
+      <div class="card-image-container">
+        <img src="./assets/images/image-retro-pcs.jpg" alt="" class="card-image"></div>
+      <div class="card-descri">
+        <div class="card-number card-number-1">01</div>
+        <div class="card-title">Reviving reto PCs</div>
+        <div class="card-content">What happens when old PCs when old PCs are given modern upgrades?</div>
+      </div>
+      
     </div>
-    <div class="card card-2">
-      <div class="card-number card-number-2"></div>
-      <div class="card-title"></div>
-      <div class="card-content"></div>
+
+    <div class="card-image-container">
+      <img src="./assets/images/image-top-laptops.jpg" alt="" class="card-image"></div>
+    <div class="card-descri">
+      <div class="card-number card-number-2">02</div>
+      <div class="card-title">Top 10 Laptops of 2022</div>
+      <div class="card-content">Our best pics for various needs and budgets</div>
     </div>
-    <div class="card card-3">
-      <div class="card-number card-number-3"></div>
-      <div class="card-title"></div>
-      <div class="card-content"></div>
-    </div>
+
+    <div class="card-image-container">
+        <img src="./assets/images/image-gaming-growth.jpg" alt="" class="card-image"></div>
+      <div class="card-descri">
+        <div class="card-number card-number-3">03</div>
+        <div class="card-title">The Growth of Gaming</div>
+        <div class="card-content">How the pandemic has sparked fresh opportunities</div>
+      </div>
   </footer>
 
 </body>

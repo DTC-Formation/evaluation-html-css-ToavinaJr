@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: solid 1px red;
+    text-decoration: none;
+    list-style: none;
+    overflow-x: hidden;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.logo{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.nav-bar{
+
+}
+
+.nav-list{
+    display: flex;
+}
+
+.nav-item{
+    margin: 10px;
+}
+
+.nav-link{
+    font-size: 24px;
+}
+
+main{
+    display: flex;
+}
+
+.left{
+
+}
+
+section{
+
+}
+
+.img-web-container{
+
+}
+
+.img-web{
+
+}
+
+.text-description{
+    display: flex;
+}

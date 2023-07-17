@@ -19,10 +19,6 @@ header{
     padding: 20px;
 }
 
-.nav-bar.active{
-    display: block;
-}
-
 .nav-list{
     display: flex;
     flex-direction: column;
@@ -176,6 +172,9 @@ footer{
     color: #b0aeb1;
 }
 
+.active{
+    display: block;
+}
 @media only screen and (max-width: 375px){
     nav{
         display: none;

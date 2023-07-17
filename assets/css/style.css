@@ -200,7 +200,6 @@ footer{
 
 #menu-toggle{
     display: none;
-    border: solid 1px red;
 }
 
 @media only screen and (max-width: 375px){
@@ -214,7 +213,8 @@ footer{
         width: 70vw;
         top: 0;
         left: 30vw;
-        /* background: #00001a; */
+        background: #fefdf9;
+        color: #2c2b35;
         padding-top: 40px;
     }
 
@@ -255,6 +255,7 @@ footer{
         width: 100%;
         height: 100%;
     }
+
 
     .text-slogan{
         padding: 0;

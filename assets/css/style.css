@@ -232,7 +232,7 @@ footer{
         position: absolute;
         display: block;
         right: 40px;
-        top: 20px;
+        top: 30px;
         z-index: 4;
     }
 
@@ -284,10 +284,3 @@ footer{
         width: 50%;
     }
 }
-
-@media only screen and (max-width: 860px){
-    body{
-        padding: 5px;
-    }
-}
-

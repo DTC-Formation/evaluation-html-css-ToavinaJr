@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+    border: 1px solid red;    
     text-decoration: none;
     list-style: none;
     overflow-x: hidden;
@@ -10,21 +10,23 @@
 
 body{
     background: #fefdf9;
+    padding: 50px;
 }
 
 header{
     display: flex;
     justify-content: space-between;
-    margin: 20px;
+    padding: 20px;
 }
 
 .logo{
     font-size: 32px;
-    font-weight: 600;
+    font-weight: 800;
+    color: #01001a;
 }
 
 .nav-bar{
-
+    margin-right: ;
 }
 
 .nav-list{
@@ -37,6 +39,7 @@ header{
 
 .nav-link{
     font-size: 24px;
+    color: #8d8b96;
 }
 
 main{
@@ -44,7 +47,6 @@ main{
 }
 
 section{
-
 }
 
 .left{
@@ -89,6 +91,7 @@ section{
     background: #f25d52;
     text-transform: uppercase;
     color: #f7e4da;
+    font-weight: 400;
 }
 .right{
     padding: 20px;
@@ -104,7 +107,7 @@ section{
 
 .new-descri{
     margin-top: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 .new-container{
@@ -121,6 +124,9 @@ section{
     color: #616274;
 }
 
+.new-intro-3{
+    justify-content: end;
+}
 hr{
     background: #616274;
 }
@@ -153,4 +159,36 @@ footer{
 }
 .card-content{
     color: #b0aeb1;
+}
+
+@media only screen and (max-width: 375px){
+    nav{
+        display: none;
+    }
+
+    main{
+        flex-direction: column;
+    }
+
+    .left{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-description{
+        flex-direction: column;
+    }
+
+    .text-slogan{
+        padding: 20px;
+    }
+
+    .right{
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer{
+        flex-direction: column;
+    }
 }

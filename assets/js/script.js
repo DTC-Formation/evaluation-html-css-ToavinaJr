@@ -1,7 +1,6 @@
 let menuToggle = document.getElementById('menu-toggle')
 let menuOpen = document.getElementById('menu-open')
 let menuClose = document.getElementById('menu-close')
-// let navbar = document.querySelector('nav')
 let isOpen = true
 
 

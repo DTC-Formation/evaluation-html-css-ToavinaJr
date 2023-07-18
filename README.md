@@ -94,4 +94,4 @@ This challenge is completely free. Please share it with anyone who will find it 
 **Have fun building!** 🚀
 
 ## Lien Netlify
-[Toavina-Jr] (https://toavina-jr-evaluation.netlify.app)
+[Toavina-Jr](https://toavina-jr-evaluation.netlify.app)

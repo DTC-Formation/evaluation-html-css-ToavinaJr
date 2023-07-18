@@ -36,6 +36,10 @@ body{
     font-family: 'inter', sans-serif;
 }
 
+body.active{
+    background: #807e89;
+}
+
 header{
     display: flex;
     justify-content: space-between;
@@ -214,7 +218,7 @@ footer{
     display: none;
 }
 
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 475px){
     body{
         padding: 5px;
     }
@@ -307,6 +311,9 @@ footer{
         margin: 10px;
     }
 
+    .card-number{
+        padding: 5px;
+    }
     .card-descri{
         width: 50%;
     }
@@ -314,7 +321,14 @@ footer{
 
 @media only screen and (max-width: 1440px){
     body{
-        padding: 5px;
+        padding: 3px;
+    }
+
+    .text-slogan{
+        font-size: 32px;
+    }
+    .text-service{
+        font-size: 16px;
     }
 }
 

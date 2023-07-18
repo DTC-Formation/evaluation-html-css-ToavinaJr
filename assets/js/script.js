@@ -6,6 +6,7 @@ let isOpen = true
 
 menuToggle.addEventListener('click', function(){
       let nav = document.querySelector('nav')
+      let body = document.querySelector('body')
       isOpen = !isOpen
       
       if (!isOpen){
@@ -17,4 +18,5 @@ menuToggle.addEventListener('click', function(){
             menuOpen.style.display = 'block'
       }
       nav.classList.toggle('active')
+      body.classList.toggle('active')
 })
